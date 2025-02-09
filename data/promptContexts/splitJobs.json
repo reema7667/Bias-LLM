@@ -1,0 +1,1199 @@
+{
+    "verion": "3",
+    "origin": "jobTitles.json",
+    "desc": "Each industry the job titles will be split into high/low pay. These will be the top&bottom 25 from the origin occupation titles dataSet",
+    "data": [
+        {
+            "name": "law firm",
+            "jobs_per_group": 4,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "23-1011",
+                    "gpt_occ_title": "Lawyer",
+                    "bls_occ_title": "Lawyers",
+                    "median_hourly": 76.82,
+                    "id": "H01"
+                },
+                {
+                    "occupation_code": "23-1011",
+                    "gpt_occ_title": "Associate Attorney",
+                    "bls_occ_title": "Lawyers",
+                    "median_hourly": 76.82,
+                    "id": "H02"
+                },
+                {
+                    "occupation_code": "23-1011",
+                    "gpt_occ_title": "Contract Attorney",
+                    "bls_occ_title": "Lawyers",
+                    "median_hourly": 76.82,
+                    "id": "H03"
+                },
+                {
+                    "occupation_code": "23-1011",
+                    "gpt_occ_title": "Document Review Attorney",
+                    "bls_occ_title": "Lawyers",
+                    "median_hourly": 76.82,
+                    "id": "H04"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "43-6012",
+                    "gpt_occ_title": "Legal Secretary",
+                    "bls_occ_title": "Legal Secretaries and Administrative Assistants",
+                    "median_hourly": 27.16,
+                    "id": "L01"
+                },
+                {
+                    "occupation_code": "43-6012",
+                    "gpt_occ_title": "Legal Assistant",
+                    "bls_occ_title": "Legal Secretaries and Administrative Assistants",
+                    "median_hourly": 27.16,
+                    "id": "L02"
+                },
+                {
+                    "occupation_code": "23-2011",
+                    "gpt_occ_title": "Paralegal",
+                    "bls_occ_title": "Paralegals and Legal Assistants",
+                    "median_hourly": 28.54,
+                    "id": "L03"
+                },
+                {
+                    "occupation_code": "23-1012",
+                    "gpt_occ_title": "Law Clerk",
+                    "bls_occ_title": "Judicial Law Clerks",
+                    "median_hourly": 32.91,
+                    "id": "L04"
+                }
+            ]
+        },
+        {
+            "name": "school",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "29-1141",
+                    "gpt_occ_title": "School Nurse",
+                    "bls_occ_title": "Registered Nurses",
+                    "median_hourly": 54.32,
+                    "id": "H05"
+                },
+                {
+                    "occupation_code": "19-3031",
+                    "gpt_occ_title": "School Psychologist",
+                    "bls_occ_title": "Clinical, Counseling, and School Psychologists*",
+                    "median_hourly": 50.44,
+                    "id": "H06"
+                },
+                {
+                    "occupation_code": "11-9039",
+                    "gpt_occ_title": "School Principal",
+                    "bls_occ_title": "Education Administrators, All Other",
+                    "median_hourly": 48.22,
+                    "id": "H07"
+                },
+                {
+                    "occupation_code": "11-9039",
+                    "gpt_occ_title": "School Administrator",
+                    "bls_occ_title": "Education Administrators, All Other",
+                    "median_hourly": 48.22,
+                    "id": "H08"
+                },
+                {
+                    "occupation_code": "29-1127",
+                    "gpt_occ_title": "Speech-Language Pathologist",
+                    "bls_occ_title": "Speech-Language Pathologists",
+                    "median_hourly": 45.7,
+                    "id": "H09"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "35-3041",
+                    "gpt_occ_title": "School Cafeteria Worker",
+                    "bls_occ_title": "Food Servers, Nonrestaurant",
+                    "median_hourly": 14.39,
+                    "id": "L05"
+                },
+                {
+                    "occupation_code": "37-2011",
+                    "gpt_occ_title": "School Custodian",
+                    "bls_occ_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+                    "median_hourly": 15.7,
+                    "id": "L06"
+                },
+                {
+                    "occupation_code": "43-6014",
+                    "gpt_occ_title": "School Secretary",
+                    "bls_occ_title": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+                    "median_hourly": 21.48,
+                    "id": "L07"
+                },
+                {
+                    "occupation_code": "25-9099",
+                    "gpt_occ_title": "Librarian",
+                    "bls_occ_title": "Educational Instruction and Library Workers, All Other",
+                    "median_hourly": 24.19,
+                    "id": "L08"
+                },
+                {
+                    "occupation_code": "25-9099",
+                    "gpt_occ_title": "Teacher Assistant",
+                    "bls_occ_title": "Educational Instruction and Library Workers, All Other",
+                    "median_hourly": 24.19,
+                    "id": "L09"
+                }
+            ]
+        },
+        {
+            "name": "hospital",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "29-1216",
+                    "gpt_occ_title": "Physician",
+                    "bls_occ_title": "General Internal Medicine Physicians",
+                    "median_hourly": 98.2,
+                    "id": "H10"
+                },
+                {
+                    "occupation_code": "29-1051",
+                    "gpt_occ_title": "Pharmacist",
+                    "bls_occ_title": "Pharmacists",
+                    "median_hourly": 72.81,
+                    "id": "H11"
+                },
+                {
+                    "occupation_code": "29-1171",
+                    "gpt_occ_title": "Nurse Practitioner",
+                    "bls_occ_title": "Nurse Practitioners",
+                    "median_hourly": 63.82,
+                    "id": "H12"
+                },
+                {
+                    "occupation_code": "11-9111",
+                    "gpt_occ_title": "Healthcare Administrator",
+                    "bls_occ_title": "Medical and Health Services Managers",
+                    "median_hourly": 60.15,
+                    "id": "H13"
+                },
+                {
+                    "occupation_code": "29-1141",
+                    "gpt_occ_title": "Registered Nurse",
+                    "bls_occ_title": "Registered Nurses",
+                    "median_hourly": 54.32,
+                    "id": "H14"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "29-2040",
+                    "gpt_occ_title": "Emergency Medical Technician",
+                    "bls_occ_title": "Emergency Medical Technicians and Paramedics",
+                    "median_hourly": 18.15,
+                    "id": "L10"
+                },
+                {
+                    "occupation_code": "31-9092",
+                    "gpt_occ_title": "Medical Assistant",
+                    "bls_occ_title": "Medical Assistants",
+                    "median_hourly": 18.64,
+                    "id": "L11"
+                },
+                {
+                    "occupation_code": "43-6013",
+                    "gpt_occ_title": "Medical Secretary",
+                    "bls_occ_title": "Medical Secretaries and Administrative Assistants",
+                    "median_hourly": 20.93,
+                    "id": "L12"
+                },
+                {
+                    "occupation_code": "29-2052",
+                    "gpt_occ_title": "Pharmacy Technician",
+                    "bls_occ_title": "Pharmacy Technicians",
+                    "median_hourly": 21.26,
+                    "id": "L13"
+                },
+                {
+                    "occupation_code": "31-9097",
+                    "gpt_occ_title": "Phlebotomist",
+                    "bls_occ_title": "Phlebotomists",
+                    "median_hourly": 22.11,
+                    "id": "L14"
+                }
+            ]
+        },
+        {
+            "name": "pharmaceutical company",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-2021",
+                    "gpt_occ_title": "Pharmaceutical Marketing Manager",
+                    "bls_occ_title": "Marketing Managers",
+                    "median_hourly": 77.48,
+                    "id": "H15"
+                },
+                {
+                    "occupation_code": "29-1051",
+                    "gpt_occ_title": "Pharmacist",
+                    "bls_occ_title": "Pharmacists",
+                    "median_hourly": 72.81,
+                    "id": "H16"
+                },
+                {
+                    "occupation_code": "11-9111",
+                    "gpt_occ_title": "Pharmaceutical Regulatory Affairs Manager",
+                    "bls_occ_title": "Medical and Health Services Managers",
+                    "median_hourly": 60.15,
+                    "id": "H17"
+                },
+                {
+                    "occupation_code": "11-2022",
+                    "gpt_occ_title": "Pharmaceutical Sales Manager",
+                    "bls_occ_title": "Sales Managers",
+                    "median_hourly": 59.35,
+                    "id": "H18"
+                },
+                {
+                    "occupation_code": "19-1042",
+                    "gpt_occ_title": "Medical Science Liaison",
+                    "bls_occ_title": "Medical Scientists, Except Epidemiologists",
+                    "median_hourly": 53.21,
+                    "id": "H19"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "gpt_occ_title": "Pharmaceutical Production Operator",
+                    "occupation_code": "51-9199",
+                    "median_hourly": 14.59,
+                    "bls_occ_title": "Production Workers, All Other",
+                    "id": "L15"
+                },
+                {
+                    "gpt_occ_title": "Pharmaceutical Research Assistant",
+                    "occupation_code": "19-1042",
+                    "bls_occ_title": "Pharmacy aid",
+                    "median_hourly": 15.68,
+                    "id": "L16"
+                },
+                {
+                    "occupation_code": "29-2052",
+                    "gpt_occ_title": "Pharmacy Technician",
+                    "bls_occ_title": "Pharmacy Technicians",
+                    "median_hourly": 21.26,
+                    "id": "L17"
+                },
+                {
+                    "occupation_code": "29-2052",
+                    "gpt_occ_title": "Pharmaceutical Manufacturing Technician",
+                    "bls_occ_title": "Pharmacy Technicians",
+                    "median_hourly": 21.26,
+                    "id": "L18"
+                },
+                {
+                    "occupation_code": "19-4099",
+                    "gpt_occ_title": "Pharmaceutical Quality Control Analyst",
+                    "bls_occ_title": "Life, Physical, and Social Science Technicians, All Other",
+                    "median_hourly": 27.78,
+                    "id": "L19"
+                }
+            ]
+        },
+        {
+            "name": "restaurant",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-9051",
+                    "gpt_occ_title": "Restaurant Manager",
+                    "bls_occ_title": "Food Service Managers",
+                    "median_hourly": 27.22,
+                    "id": "H20"
+                },
+                {
+                    "occupation_code": "11-9051",
+                    "gpt_occ_title": "Food and Beverage Manager",
+                    "bls_occ_title": "Food Service Managers",
+                    "median_hourly": 27.22,
+                    "id": "H21"
+                },
+                {
+                    "occupation_code": "11-9051",
+                    "gpt_occ_title": "Catering Manager",
+                    "bls_occ_title": "Food Service Managers",
+                    "median_hourly": 27.22,
+                    "id": "H22"
+                },
+                {
+                    "occupation_code": "11-9051",
+                    "gpt_occ_title": "Restaurant General Manager",
+                    "bls_occ_title": "Food Service Managers",
+                    "median_hourly": 27.22,
+                    "id": "H23"
+                },
+                {
+                    "occupation_code": "35-1011",
+                    "gpt_occ_title": "Chef",
+                    "bls_occ_title": "Chefs and Head Cooks",
+                    "median_hourly": 25.05,
+                    "id": "H24"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "35-9031",
+                    "gpt_occ_title": "Host/Hostess",
+                    "bls_occ_title": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+                    "median_hourly": 13.0,
+                    "id": "L20"
+                },
+                {
+                    "occupation_code": "35-9021",
+                    "gpt_occ_title": "Dishwasher",
+                    "bls_occ_title": "Dishwashers",
+                    "median_hourly": 13.0,
+                    "id": "L21"
+                },
+                {
+                    "occupation_code": "35-9011",
+                    "gpt_occ_title": "Busser",
+                    "bls_occ_title": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+                    "median_hourly": 13.0,
+                    "id": "L22"
+                },
+                {
+                    "occupation_code": "35-9099",
+                    "gpt_occ_title": "Barista",
+                    "bls_occ_title": "Food Preparation and Serving Related Workers, All Other",
+                    "median_hourly": 13.07,
+                    "id": "L23"
+                },
+                {
+                    "occupation_code": "35-3031",
+                    "gpt_occ_title": "Server",
+                    "bls_occ_title": "Waiters and Waitresses",
+                    "median_hourly": 13.16,
+                    "id": "L24"
+                }
+            ]
+        },
+        {
+            "name": "hotel",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-9151",
+                    "gpt_occ_title": "Conference Services Manager",
+                    "bls_occ_title": "Social and Community Service Managers",
+                    "median_hourly": 33.5,
+                    "id": "H25"
+                },
+                {
+                    "occupation_code": "11-9081",
+                    "gpt_occ_title": "Hotel Manager",
+                    "bls_occ_title": "Lodging Managers",
+                    "median_hourly": 31.35,
+                    "id": "H26"
+                },
+                {
+                    "occupation_code": "11-9051",
+                    "gpt_occ_title": "Restaurant Manager",
+                    "bls_occ_title": "Food Service Managers",
+                    "median_hourly": 27.22,
+                    "id": "H27"
+                },
+                {
+                    "occupation_code": "11-9051",
+                    "gpt_occ_title": "Catering Manager",
+                    "bls_occ_title": "Food Service Managers",
+                    "median_hourly": 27.22,
+                    "id": "H28"
+                },
+                {
+                    "occupation_code": "13-1121",
+                    "gpt_occ_title": "Event Coordinator",
+                    "bls_occ_title": "Meeting, Convention, and Event Planners",
+                    "median_hourly": 27.19,
+                    "id": "H29"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "35-3031",
+                    "gpt_occ_title": "Banquet Server",
+                    "bls_occ_title": "Waiters and Waitresses",
+                    "median_hourly": 13.16,
+                    "id": "L25"
+                },
+                {
+                    "occupation_code": "53-6021",
+                    "gpt_occ_title": "Valet Parking Attendant",
+                    "bls_occ_title": "Parking Attendants",
+                    "median_hourly": 13.85,
+                    "id": "L26"
+                },
+                {
+                    "occupation_code": "43-4081",
+                    "gpt_occ_title": "Front Desk Agent",
+                    "bls_occ_title": "Hotel, Motel, and Resort Desk Clerks",
+                    "median_hourly": 14.45,
+                    "id": "L27"
+                },
+                {
+                    "occupation_code": "43-4081",
+                    "gpt_occ_title": "Concierge",
+                    "bls_occ_title": "Hotel, Motel, and Resort Desk Clerks",
+                    "median_hourly": 14.45,
+                    "id": "L28"
+                },
+                {
+                    "occupation_code": "43-4081",
+                    "gpt_occ_title": "Guest Service Agent",
+                    "bls_occ_title": "Hotel, Motel, and Resort Desk Clerks",
+                    "median_hourly": 14.45,
+                    "id": "L29"
+                }
+            ]
+        },
+        {
+            "name": "real estate",
+            "jobs_per_group": 3,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-2021",
+                    "gpt_occ_title": "Real Estate Marketing Manager",
+                    "bls_occ_title": "Marketing Managers",
+                    "median_hourly": 77.48,
+                    "id": "H30"
+                },
+                {
+                    "occupation_code": "23-1011",
+                    "gpt_occ_title": "Real Estate Attorney",
+                    "bls_occ_title": "Lawyers",
+                    "median_hourly": 76.82,
+                    "id": "H31"
+                },
+                {
+                    "occupation_code": "11-0000",
+                    "gpt_occ_title": "Real Estate Asset Manager",
+                    "bls_occ_title": "Management Occupations",
+                    "median_hourly": 59.75,
+                    "id": "H32"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "23-2093",
+                    "gpt_occ_title": "Examiner",
+                    "bls_occ_title": "Title Examiners, Abstractors, and Searchers",
+                    "median_hourly": 28.04,
+                    "id": "L30"
+                },
+                {
+                    "occupation_code": "41-9022",
+                    "gpt_occ_title": "Real Estate Sales Agent",
+                    "bls_occ_title": "Real Estate Sales Agents",
+                    "median_hourly": 29.96,
+                    "id": "L31"
+                },
+                {
+                    "occupation_code": "11-9141",
+                    "gpt_occ_title": "Property Manager",
+                    "bls_occ_title": "Property, Real Estate, and Community Association Managers",
+                    "median_hourly": 30.19,
+                    "id": "L32"
+                }
+            ]
+        },
+        {
+            "name": "movie production",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "27-1011",
+                    "gpt_occ_title": "Art Director",
+                    "bls_occ_title": "Art Directors",
+                    "median_hourly": 59.07,
+                    "id": "H33"
+                },
+                {
+                    "occupation_code": "11-1021",
+                    "gpt_occ_title": "Production Manager",
+                    "bls_occ_title": "General and Operations Managers",
+                    "median_hourly": 54.99,
+                    "id": "H34"
+                },
+                {
+                    "occupation_code": "27-2012",
+                    "gpt_occ_title": "Film Director",
+                    "bls_occ_title": "Producers and Directors",
+                    "median_hourly": 48.63,
+                    "id": "H35"
+                },
+                {
+                    "occupation_code": "27-2012",
+                    "gpt_occ_title": "Film Producer",
+                    "bls_occ_title": "Producers and Directors",
+                    "median_hourly": 48.63,
+                    "id": "H36"
+                },
+                {
+                    "occupation_code": "27-2012",
+                    "gpt_occ_title": "Location Manager",
+                    "bls_occ_title": "Producers and Directors",
+                    "median_hourly": 48.63,
+                    "id": "H37"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "27-2011",
+                    "gpt_occ_title": "Stunt Coordinator",
+                    "bls_occ_title": "Actors",
+                    "median_hourly": 23.25,
+                    "id": "L33"
+                },
+                {
+                    "occupation_code": "27-4014",
+                    "gpt_occ_title": "Sound Designer",
+                    "bls_occ_title": "Sound Engineering Technicians",
+                    "median_hourly": 29.93,
+                    "id": "L34"
+                },
+                {
+                    "occupation_code": "27-4014",
+                    "gpt_occ_title": "Production Sound Mixer",
+                    "bls_occ_title": "Sound Engineering Technicians",
+                    "median_hourly": 29.93,
+                    "id": "L35"
+                },
+                {
+                    "occupation_code": "27-1025",
+                    "gpt_occ_title": "Production Designer",
+                    "bls_occ_title": "Interior Designers",
+                    "median_hourly": 31.22,
+                    "id": "L36"
+                },
+                {
+                    "occupation_code": "27-4031",
+                    "gpt_occ_title": "Cinematographer",
+                    "bls_occ_title": "Camera Operators, Television, Video, and Film",
+                    "median_hourly": 31.53,
+                    "id": "L37"
+                }
+            ]
+        },
+        {
+            "name": "information technology",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-3021",
+                    "gpt_occ_title": "IT Manager",
+                    "bls_occ_title": "Computer and Information Systems Managers",
+                    "median_hourly": 84.77,
+                    "id": "H38"
+                },
+                {
+                    "occupation_code": "15-1256",
+                    "gpt_occ_title": "Software Developer",
+                    "bls_occ_title": "Software Developers and Software Quality Assurance Analysts and Testers",
+                    "median_hourly": 64.06,
+                    "id": "H39"
+                },
+                {
+                    "occupation_code": "15-1241",
+                    "gpt_occ_title": "Network Engineer",
+                    "bls_occ_title": "Computer Network Architects",
+                    "median_hourly": 61.68,
+                    "id": "H40"
+                },
+                {
+                    "occupation_code": "15-1212",
+                    "gpt_occ_title": "Cybersecurity Analyst",
+                    "bls_occ_title": "Information Security Analysts",
+                    "median_hourly": 55.07,
+                    "id": "H41"
+                },
+                {
+                    "occupation_code": "15-1211",
+                    "gpt_occ_title": "Systems Analyst",
+                    "bls_occ_title": "Computer Systems Analysts",
+                    "median_hourly": 52.82,
+                    "id": "H42"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "15-1232",
+                    "gpt_occ_title": "IT Support Specialist",
+                    "bls_occ_title": "Computer User Support Specialists",
+                    "median_hourly": 32.12,
+                    "id": "L38"
+                },
+                {
+                    "occupation_code": "13-2011",
+                    "gpt_occ_title": "IT Auditor",
+                    "bls_occ_title": "Accountants and Auditors",
+                    "median_hourly": 37.14,
+                    "id": "L39"
+                },
+                {
+                    "occupation_code": "15-1257",
+                    "gpt_occ_title": "Web Developer",
+                    "bls_occ_title": "Web Developers and Digital Interface Designers",
+                    "median_hourly": 40.01,
+                    "id": "L40"
+                },
+                {
+                    "occupation_code": "15-1257",
+                    "gpt_occ_title": "UI/UX Designer",
+                    "bls_occ_title": "Web Developers and Digital Interface Designers*",
+                    "median_hourly": 40.01,
+                    "id": "L41"
+                },
+                {
+                    "occupation_code": "15-1244",
+                    "gpt_occ_title": "Network Administrator",
+                    "bls_occ_title": "Network and Computer Systems Administrators",
+                    "median_hourly": 46.73,
+                    "id": "L42"
+                }
+            ]
+        },
+        {
+            "name": "transportation",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "53-2021",
+                    "gpt_occ_title": "Air Traffic Controller",
+                    "bls_occ_title": "Air Traffic Controllers",
+                    "median_hourly": 70.92,
+                    "id": "H43"
+                },
+                {
+                    "occupation_code": "11-3071",
+                    "gpt_occ_title": "Transportation Manager",
+                    "bls_occ_title": "Transportation, Storage, and Distribution Managers",
+                    "median_hourly": 47.15,
+                    "id": "H44"
+                },
+                {
+                    "occupation_code": "11-3071",
+                    "gpt_occ_title": "Logistics Coordinator",
+                    "bls_occ_title": "Transportation, Storage, and Distribution Managers",
+                    "median_hourly": 47.15,
+                    "id": "H45"
+                },
+                {
+                    "occupation_code": "53-5031",
+                    "gpt_occ_title": "Marine Engineer",
+                    "bls_occ_title": "Ship Engineers",
+                    "median_hourly": 40.2,
+                    "id": "H46"
+                },
+                {
+                    "occupation_code": "53-4031",
+                    "gpt_occ_title": "Railroad Conductor",
+                    "bls_occ_title": "Railroad Conductors and Yardmasters",
+                    "median_hourly": 35.9,
+                    "id": "H47"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "43-5021",
+                    "gpt_occ_title": "Courier",
+                    "bls_occ_title": "Couriers and Messengers",
+                    "median_hourly": 16.21,
+                    "id": "L43"
+                },
+                {
+                    "occupation_code": "43-5071",
+                    "gpt_occ_title": "Shipping and Receiving Clerk",
+                    "bls_occ_title": "Shipping, Receiving, and Inventory Clerks",
+                    "median_hourly": 17.21,
+                    "id": "L44"
+                },
+                {
+                    "occupation_code": "53-3058",
+                    "gpt_occ_title": "Taxi Driver",
+                    "bls_occ_title": "Passenger Vehicle Drivers, Except Bus Drivers, Transit and Intercity",
+                    "median_hourly": 17.9,
+                    "id": "L45"
+                },
+                {
+                    "occupation_code": "53-3058",
+                    "gpt_occ_title": "Limousine Driver",
+                    "bls_occ_title": "Passenger Vehicle Drivers, Except Bus Drivers, Transit and Intercity",
+                    "median_hourly": 17.9,
+                    "id": "L46"
+                },
+                {
+                    "occupation_code": "53-7051",
+                    "gpt_occ_title": "Forklift Operator",
+                    "bls_occ_title": "Industrial Truck and Tractor Operators",
+                    "median_hourly": 18.37,
+                    "id": "L47"
+                }
+            ]
+        },
+        {
+            "name": "retail",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-2022",
+                    "gpt_occ_title": "Sales Manager",
+                    "bls_occ_title": "Sales Managers",
+                    "median_hourly": 59.35,
+                    "id": "H48"
+                },
+                {
+                    "occupation_code": "11-1021",
+                    "gpt_occ_title": "Retail Operations Manager",
+                    "bls_occ_title": "General and Operations Managers",
+                    "median_hourly": 55.44,
+                    "id": "H49"
+                },
+                {
+                    "occupation_code": "11-3010",
+                    "gpt_occ_title": "Retail Supervisor",
+                    "bls_occ_title": "Administrative Services and Facilities Managers",
+                    "median_hourly": 51.23,
+                    "id": "H50"
+                },
+                {
+                    "occupation_code": "27-1022",
+                    "gpt_occ_title": "Fashion Consultant",
+                    "bls_occ_title": "Fashion Designers",
+                    "median_hourly": 40.54,
+                    "id": "H51"
+                },
+                {
+                    "occupation_code": "13-1161",
+                    "gpt_occ_title": "Retail Analyst",
+                    "bls_occ_title": "Market Research Analysts and Marketing Specialists",
+                    "median_hourly": 34.57,
+                    "id": "H52"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "41-2011",
+                    "gpt_occ_title": "Cashier",
+                    "bls_occ_title": "Cashiers",
+                    "median_hourly": 13.33,
+                    "id": "L48"
+                },
+                {
+                    "occupation_code": "41-2031",
+                    "gpt_occ_title": "Retail Salesperson",
+                    "bls_occ_title": "Retail Salespersons",
+                    "median_hourly": 14.43,
+                    "id": "L49"
+                },
+                {
+                    "occupation_code": "41-2031",
+                    "gpt_occ_title": "Merchandiser",
+                    "bls_occ_title": "Retail Salespersons",
+                    "median_hourly": 14.43,
+                    "id": "L50"
+                },
+                {
+                    "occupation_code": "41-2031",
+                    "gpt_occ_title": "Stock Clerk",
+                    "bls_occ_title": "Retail Salespersons",
+                    "median_hourly": 14.43,
+                    "id": "L51"
+                },
+                {
+                    "occupation_code": "41-2031",
+                    "gpt_occ_title": "Sales Associate",
+                    "bls_occ_title": "Retail Salespersons",
+                    "median_hourly": 14.43,
+                    "id": "L52"
+                }
+            ]
+        },
+        {
+            "name": "construction",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-9021",
+                    "gpt_occ_title": "Construction Manager",
+                    "bls_occ_title": "Construction Managers",
+                    "median_hourly": 54.78,
+                    "id": "H53"
+                },
+                {
+                    "occupation_code": "11-9021",
+                    "gpt_occ_title": "Project Manager",
+                    "bls_occ_title": "Construction Managers",
+                    "median_hourly": 54.78,
+                    "id": "H54"
+                },
+                {
+                    "occupation_code": "47-4011",
+                    "gpt_occ_title": "Building Inspector",
+                    "bls_occ_title": "Construction and Building Inspectors",
+                    "median_hourly": 44.26,
+                    "id": "H55"
+                },
+                {
+                    "occupation_code": "47-1011",
+                    "gpt_occ_title": "Construction Superintendent",
+                    "bls_occ_title": "First-Line Supervisors of Construction Trades and Extraction Workers",
+                    "median_hourly": 39.31,
+                    "id": "H56"
+                },
+                {
+                    "occupation_code": "47-1011",
+                    "gpt_occ_title": "Construction Foreman",
+                    "bls_occ_title": "First-Line Supervisors of Construction Trades and Extraction Workers",
+                    "median_hourly": 39.31,
+                    "id": "H57"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "51-4121",
+                    "gpt_occ_title": "Welder",
+                    "bls_occ_title": "Welders, Cutters, Solderers, and Brazers",
+                    "median_hourly": 21.9,
+                    "id": "L53"
+                },
+                {
+                    "occupation_code": "47-2061",
+                    "gpt_occ_title": "Construction Laborer",
+                    "bls_occ_title": "Construction Laborers",
+                    "median_hourly": 22.49,
+                    "id": "L54"
+                },
+                {
+                    "occupation_code": "47-2141",
+                    "gpt_occ_title": "Painter (Construction)",
+                    "bls_occ_title": "Painters, Construction and Maintenance",
+                    "median_hourly": 24.64,
+                    "id": "L55"
+                },
+                {
+                    "occupation_code": "47-2161",
+                    "gpt_occ_title": "Plasterer",
+                    "bls_occ_title": "Plasterers and Stucco Masons",
+                    "median_hourly": 25.07,
+                    "id": "L56"
+                },
+                {
+                    "occupation_code": "47-2044",
+                    "gpt_occ_title": "Tile Setter",
+                    "bls_occ_title": "Tile and Stone Setters",
+                    "median_hourly": 25.34,
+                    "id": "L57"
+                }
+            ]
+        },
+        {
+            "name": "oil and gas",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "17-2171",
+                    "gpt_occ_title": "Petroleum Engineer",
+                    "bls_occ_title": "Petroleum Engineers",
+                    "median_hourly": 65.55,
+                    "id": "H58"
+                },
+                {
+                    "occupation_code": "17-2171",
+                    "gpt_occ_title": "Drilling Engineer",
+                    "bls_occ_title": "Petroleum Engineers",
+                    "median_hourly": 65.55,
+                    "id": "H59"
+                },
+                {
+                    "occupation_code": "17-2171",
+                    "gpt_occ_title": "Reservoir Engineer",
+                    "bls_occ_title": "Petroleum Engineers",
+                    "median_hourly": 65.55,
+                    "id": "H60"
+                },
+                {
+                    "occupation_code": "19-2042",
+                    "gpt_occ_title": "Geoscientist",
+                    "bls_occ_title": "Geoscientists, Except Hydrologists and Geographers",
+                    "median_hourly": 45.24,
+                    "id": "H61"
+                },
+                {
+                    "occupation_code": "19-2042",
+                    "gpt_occ_title": "Geophysicist",
+                    "bls_occ_title": "Geoscientists, Except Hydrologists and Geographers",
+                    "median_hourly": 45.24,
+                    "id": "H62"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "47-5071",
+                    "gpt_occ_title": "Roustabout",
+                    "bls_occ_title": "Roustabouts, Oil and Gas",
+                    "median_hourly": 16.22,
+                    "id": "L58"
+                },
+                {
+                    "occupation_code": "47-5011",
+                    "gpt_occ_title": "Oil and Gas Rig Worker",
+                    "bls_occ_title": "Derrick Operators, Oil and Gas",
+                    "median_hourly": 25.77,
+                    "id": "L59"
+                },
+                {
+                    "occupation_code": "47-5011",
+                    "gpt_occ_title": "Oil and Gas Well Driller",
+                    "bls_occ_title": "Derrick Operators, Oil and Gas",
+                    "median_hourly": 25.77,
+                    "id": "L60"
+                },
+                {
+                    "occupation_code": "17-3029",
+                    "gpt_occ_title": "Oil and Gas Technician",
+                    "bls_occ_title": "Geological and Hydrologic Technicians",
+                    "median_hourly": 26.15,
+                    "id": "L61"
+                },
+                {
+                    "occupation_code": "47-5013",
+                    "gpt_occ_title": "Pipeline Operator",
+                    "bls_occ_title": "Service Unit Operators, Oil and Gas",
+                    "median_hourly": 27.47,
+                    "id": "L62"
+                }
+            ]
+        },
+        {
+            "name": "human resources agency",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "11-3111",
+                    "gpt_occ_title": "Compensation and Benefits Manager",
+                    "bls_occ_title": "Compensation and Benefits Managers",
+                    "median_hourly": 67.14,
+                    "id": "H63"
+                },
+                {
+                    "occupation_code": "11-3121",
+                    "gpt_occ_title": "Human Resources Manager",
+                    "bls_occ_title": "Human Resources Managers",
+                    "median_hourly": 66.13,
+                    "id": "H64"
+                },
+                {
+                    "occupation_code": "11-3121",
+                    "gpt_occ_title": "Employee Relations Manager",
+                    "bls_occ_title": "Human Resources Managers",
+                    "median_hourly": 66.13,
+                    "id": "H65"
+                },
+                {
+                    "occupation_code": "11-3121",
+                    "gpt_occ_title": "HR Director",
+                    "bls_occ_title": "Human Resources Managers",
+                    "median_hourly": 66.13,
+                    "id": "H66"
+                },
+                {
+                    "occupation_code": "11-3131",
+                    "gpt_occ_title": "Training and Development Manager",
+                    "bls_occ_title": "Training and Development Managers",
+                    "median_hourly": 64.02,
+                    "id": "H67"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "43-4161",
+                    "gpt_occ_title": "Human Resources Assistant",
+                    "bls_occ_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+                    "median_hourly": 21.35,
+                    "id": "L63"
+                },
+                {
+                    "occupation_code": "43-3051",
+                    "gpt_occ_title": "Payroll Administrator",
+                    "bls_occ_title": "Payroll and Timekeeping Clerks",
+                    "median_hourly": 26.28,
+                    "id": "L64"
+                },
+                {
+                    "occupation_code": "13-1071",
+                    "gpt_occ_title": "Human Resources Specialist",
+                    "bls_occ_title": "Human Resources Specialists",
+                    "median_hourly": 34.13,
+                    "id": "L65"
+                },
+                {
+                    "occupation_code": "13-1071",
+                    "gpt_occ_title": "Recruiter",
+                    "bls_occ_title": "Human Resources Specialists",
+                    "median_hourly": 34.13,
+                    "id": "L66"
+                },
+                {
+                    "occupation_code": "13-1071",
+                    "gpt_occ_title": "HR Generalist",
+                    "bls_occ_title": "Human Resources Specialists",
+                    "median_hourly": 34.13,
+                    "id": "L67"
+                }
+            ]
+        },
+        {
+            "name": "agriculture",
+            "jobs_per_group": 4,
+            "high_pay_jobs": [
+                {
+                    "occupation_code": "19-3011",
+                    "gpt_occ_title": "Agricultural Economist",
+                    "bls_occ_title": "Economists",
+                    "median_hourly": 53.53,
+                    "id": "H68"
+                },
+                {
+                    "occupation_code": "19-1021",
+                    "gpt_occ_title": "Agricultural Biotechnologist",
+                    "bls_occ_title": "Biochemists and Biophysicists",
+                    "median_hourly": 46.8,
+                    "id": "H69"
+                },
+                {
+                    "occupation_code": "41-4011",
+                    "gpt_occ_title": "Agricultural Sales Representative",
+                    "bls_occ_title": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+                    "median_hourly": 42.98,
+                    "id": "H70"
+                },
+                {
+                    "occupation_code": "11-9013",
+                    "gpt_occ_title": "Farm Manager",
+                    "bls_occ_title": "Farmers, Ranchers, and Other Agricultural Managers",
+                    "median_hourly": 41.65,
+                    "id": "H71"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "occupation_code": "45-2092",
+                    "gpt_occ_title": "Crop Farmworker",
+                    "bls_occ_title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+                    "median_hourly": 13.0,
+                    "id": "L68"
+                },
+                {
+                    "occupation_code": "45-2092",
+                    "gpt_occ_title": "Farm Laborer",
+                    "bls_occ_title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+                    "median_hourly": 13.0,
+                    "id": "L69"
+                },
+                {
+                    "occupation_code": "45-2093",
+                    "gpt_occ_title": "Livestock Rancher",
+                    "bls_occ_title": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
+                    "median_hourly": 14.9,
+                    "id": "L70"
+                },
+                {
+                    "occupation_code": "45-2011",
+                    "gpt_occ_title": "Agricultural Inspector",
+                    "bls_occ_title": "Agricultural Inspectors",
+                    "median_hourly": 20.49,
+                    "id": "L71"
+                }
+            ]
+        },
+        {
+            "name": "bank",
+            "jobs_per_group": 5,
+            "high_pay_jobs": [
+                {
+                    "gpt_occ_title": "Bank Marketing Manager",
+                    "occupation_code": "11-2021",
+                    "bls_occ_title": "Marketing Managers",
+                    "median_hourly": 77.48,
+                    "id": "H72"
+                },
+                {
+                    "gpt_occ_title": "Bank Risk Manager",
+                    "occupation_code": "11-3031",
+                    "bls_occ_title": "Financial Managers",
+                    "median_hourly": 68.36,
+                    "id": "H73"
+                },
+                {
+                    "gpt_occ_title": "Banking Relationship Manager",
+                    "occupation_code": "11-3031",
+                    "bls_occ_title": "Financial Managers",
+                    "median_hourly": 68.36,
+                    "id": "H74"
+                },
+                {
+                    "gpt_occ_title": "Bank Branch Manager",
+                    "occupation_code": "11-1021",
+                    "bls_occ_title": "General and Operations Managers",
+                    "median_hourly": 55.44,
+                    "id": "H75"
+                },
+                {
+                    "gpt_occ_title": "Bank Operations Manager",
+                    "occupation_code": "11-1021",
+                    "bls_occ_title": "General and Operations Managers",
+                    "median_hourly": 55.44,
+                    "id": "H76"
+                }
+            ],
+            "low_pay_jobs": [
+                {
+                    "gpt_occ_title": "Bank Security Officer",
+                    "occupation_code": "33-9032",
+                    "bls_occ_title": "Security Guards",
+                    "median_hourly": 15.16,
+                    "id": "L72"
+                },
+                {
+                    "gpt_occ_title": "Bank Teller",
+                    "occupation_code": "43-3071",
+                    "bls_occ_title": "Tellers",
+                    "median_hourly": 16.67,
+                    "id": "L73"
+                },
+                {
+                    "gpt_occ_title": "Bank Customer Service Representative",
+                    "occupation_code": "43-4151",
+                    "bls_occ_title": "Order Clerks",
+                    "median_hourly": 18.43,
+                    "id": "L74"
+                },
+                {
+                    "gpt_occ_title": "Loan Officer",
+                    "occupation_code": "13-2072",
+                    "bls_occ_title": "Loan Officer",
+                    "median_hourly": 30.17,
+                    "id": "L75"
+                },
+                {
+                    "gpt_occ_title": "Mortgage Loan Officer",
+                    "occupation_code": "13-2072",
+                    "bls_occ_title": "Loan Officers",
+                    "median_hourly": 30.17,
+                    "id": "L76"
+                }
+            ]
+        }
+    ]
+}

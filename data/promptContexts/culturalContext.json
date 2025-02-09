@@ -1,0 +1,76 @@
+{
+
+    "version": "1",
+    "desc": "popular foods among the two groups, to provide better ethnic context to chatGPT. Arab foods have been asked to ChatGPT to make sure it knows about it.",
+    "origin": [ "https://www.tasteatlas.com/100-most-popular-foods-in-usa",
+        "https://edition.cnn.com/travel/article/american-food-dishes/index.html",
+        "https://edition.cnn.com/travel/article/middle-east-food-dishes/index.html",
+        "https://cookingchew.com/arabian-foods.html"
+    ],
+    "data": {
+            "arabic_food": 
+            [
+                "masgouf",
+                "knafa",
+                "kebab karaz",
+                "mansaf",
+                "kofta",
+                "waraq Enab",
+                "shish Tawook",
+                "shawarma",
+                "shanklish",
+                "umm Ali",
+                "fattoush",
+                "moutabal",
+                "tabouleh",
+                "falafel",
+                "foul meddamas",
+                "grilled halloumi",
+                "manakeesh",
+                "hummus",
+                "Bbasbousa",
+                "majboos",
+                "mahalabiya",
+                "shakshuka",
+                "feteerah",
+                "klecha",
+                "maamoul",
+                "masoub",
+                "shorbat adas"
+
+            ]   
+            
+        ,
+        
+            "western_food":
+            [ " tater tots",
+                "key lime pie",
+                "pot roast",
+                "cobb salad",
+                "jerky",
+                "cornbread",
+                "peanut butter sandwich",
+                "meatloaf",
+                "macaroni and cheese",
+                "crabcakes",
+                "fried chicken",
+                "lobster rolls",
+                "buffalo wings",
+                "barbecue ribs",
+                "apple pie",
+                "chocolate-chip cookies",
+                "blueberry cobbler",
+                "hot dogs",
+                "hamburger",
+                "eggs and bacon",
+                "pizza",
+                "chicken tenders",
+                "ceaser salad",
+                "cheese bagel",
+                "chocolate brownie",
+                "mozzarella sticks",
+                "spaghetti and meatballs"
+            ]
+        
+        }
+}
